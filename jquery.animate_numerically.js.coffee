@@ -1,4 +1,4 @@
-jQuery.fn.animateNumerically = (from, to, callback) ->
+@jQuery.fn.animateNumerically = (from, to, callback) ->
   elm = $ this
   $(property: from).animate(property: to, {
     duration: 3000,

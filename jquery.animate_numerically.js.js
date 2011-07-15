@@ -1,5 +1,5 @@
 (function() {
-  jQuery.fn.animateNumerically = function(from, to, callback) {
+  this.jQuery.fn.animateNumerically = function(from, to, callback) {
     var elm;
     elm = $(this);
     return $({
