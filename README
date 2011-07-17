@@ -4,6 +4,6 @@ This is useful in games or other apps with a lot changing numbers.
 
 Use like this:
 
-    $('#weight').animateNumerically(80, 70, function() {
+    $('#weight').animateNumerically(80, 70, function(n) {
       return n + ' kg';
     });
